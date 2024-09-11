@@ -1,0 +1,30 @@
+Assignment 1.1: Insertion Sort (3 points)
+Following pseudo code sorts an array of integers. Command swap switches values of two variables.
+
+function isort(A)
+    for i = 1 to size(A)-1
+        j = i-1
+        while (j >= 0) and (A[j] > A[j+1])
+            swap(A[j], A[j+1])
+            j = j-1
+Create the following function in Python:
+
+isort(A: list): sorts a given list of integers using the insertion sort. Implement function based on the above pseudo code. Note that the use of the Python's built-in sort() method is not allowed.
+Limits (your code should work with an input that is within these limits):
+
+the maximum length of the list is 103
+each integer is between 1…103
+A code template with an example program:
+
+def isort(A):
+    # TODO
+
+
+if __name__ == "__main__": 
+    A = [4, 3, 6, 2, 9, 7, 1, 8, 5]
+    isort(A)
+    print(A)
+Output:
+
+$ python isort.py
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
