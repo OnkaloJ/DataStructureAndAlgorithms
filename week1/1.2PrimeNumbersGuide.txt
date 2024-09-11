@@ -1,0 +1,33 @@
+Assignment 1.2 Prime Numbers (3 points)
+For the background read the first paragraph of this article: https://en.wikipedia.org/wiki/Prime_number
+
+Given a number N
+ how many prime numbers are less or equal to N
+? For example if N=7
+ there are four prime numbers: 2
+, 3
+, 5
+ and 7
+ (note that 1 is not a prime number).
+
+Create the following function in Python:
+
+primes(N: int): returns the numbers of primes that are less or equal to N
+Limits: 1≤N≤105
+
+A code template with an example program:
+
+def primes(N):
+    # TODO
+
+
+if __name__ == "__main__":
+    print(primes(7))
+    print(primes(15))
+    print(primes(50))
+Output:
+
+$ python primes.py
+4
+6
+15
