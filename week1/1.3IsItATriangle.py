@@ -1,11 +1,18 @@
 def triangle(a, b, c):
     # TODO
+
+    #triangle largest side need to be shorter than two other side combine
+
     largest = max(a,b,c)
 
     sum_of_two_smaler = a + b + c - largest
 
+    """if largest < sum_of_two_smaler:
+        print("True")
+    else:
+        print("False")"""
+    
     return largest < sum_of_two_smaler
-
 
 
 if __name__ == "__main__":
